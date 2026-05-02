@@ -93,9 +93,9 @@ streamlit run streamlit_app.py
 App will open at:
 http://localhost:8501
 
-### 🔗 Live Deployment
+###  Live Deployment
 
-### 🔗 Live Demo
+###  Live Demo
 [Open Streamlit App](https://app-chatbot-qydbvqzzbpty8mobpkzfy6.streamlit.app/)
 
 ---
