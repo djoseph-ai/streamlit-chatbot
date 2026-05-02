@@ -13,7 +13,7 @@ Both applications are integrated with OpenAI models and demonstrate building con
 
 ## Project Structure
 
-```text
+```
 day9/
 │── streamlit_app.py
 │── chainlit_app.py
@@ -56,19 +56,19 @@ day9/
 
 ### 1. Create Virtual Environment
 
-```bash
+```
 python3.10 -m venv venv
 ```
 
 ### 2. Activate Virtual Environment
 
-```bash
+```
 source venv/bin/activate
 ```
 
 ### 3. Install Dependencies
 
-```bash
+```
 pip install -r requirements.txt
 ```
 
@@ -78,7 +78,7 @@ pip install -r requirements.txt
 
 Create a `.env` file:
 
-```env
+```
 OPENAI_API_KEY=your_api_key_here
 ```
 
@@ -86,29 +86,36 @@ OPENAI_API_KEY=your_api_key_here
 
 ## Run the Streamlit App
 
-```bash
+```
 streamlit run streamlit_app.py
 ```
 
 App will open at:
-
-```text
 http://localhost:8501
-```
+
+### 🔗 Live Deployment
+
+### 🔗 Live Demo
+[Open Streamlit App](https://app-chatbot-qydbvqzzbpty8mobpkzfy6.streamlit.app/)
 
 ---
 
 ## Run the Chainlit App
 
-```bash
+```
 chainlit run chainlit_app.py
 ```
 
 App will open at:
-
-```text
 http://localhost:8000
-```
 
 ---
 
+## Conclusion
+
+This project demonstrates how to build chatbot applications using two different frameworks:
+
+* **Streamlit** for simple, customizable UI-based apps
+* **Chainlit** for structured conversational AI workflows
+
+It provides a solid foundation for extending into advanced concepts like memory, RAG, and agentic AI systems.
